@@ -1,0 +1,15 @@
+# salesforce CLI の動作確認
+name: SFDX Test Run on Push
+on: [push]
+
+jobs:
+  test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: sfdx-actions/setup-sfdx@v1
+        with:
+          sfdx-auth-url: 'force://PlatformCLI::5Aep861Xq7VoDavIt7ACW5BDxgeq_R8c8PwcZZh2oCSSAaDfjTQS2qSGRVuCKMp1OiUWlnNBETJ_sNzrhBxOPBg@iwasawa-dev-ed.my.salesforce.com'
+      - name: sfdx-test-run
+        run: sfdx --version
