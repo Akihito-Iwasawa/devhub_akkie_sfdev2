@@ -40,3 +40,7 @@ $RECYCLE.BIN/
 .env
 
 .vscode
+
+#add after first commit
+#config/*
+#config/**/*

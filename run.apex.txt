@@ -1,0 +1,2 @@
+FugaClass testRun = new FugaClass();
+testRun.aaa();

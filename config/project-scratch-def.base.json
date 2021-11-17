@@ -1,0 +1,16 @@
+{
+  "namespace": "",
+  "edition": "Developer",
+  "orgName": "__account-info__",
+  "adminEmail": "__account-info__",
+  "username": "__account-info__",
+  "features": ["EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}
