@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   test:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -12,4 +11,4 @@ jobs:
         with:
           sfdx-auth-url: ${{ secrets.DEVHUB_AKKIE_SFDEV2 }}
       - name: sfdx-test-run
-        run: sfdx --version
+        run: sfdx force:org:list
